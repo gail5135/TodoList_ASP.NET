@@ -154,6 +154,9 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="TodoInput.ascx" />
+    <Content Include="TodoItem.ascx" />
+    <Content Include="TodoList.ascx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -199,6 +202,24 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TodoInput.ascx.cs">
+      <DependentUpon>TodoInput.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="TodoInput.ascx.designer.cs">
+      <DependentUpon>TodoInput.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="TodoItem.ascx.cs">
+      <DependentUpon>TodoItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="TodoItem.ascx.designer.cs">
+      <DependentUpon>TodoItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="TodoList.ascx.cs">
+      <DependentUpon>TodoList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="TodoList.ascx.designer.cs">
+      <DependentUpon>TodoList.ascx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
